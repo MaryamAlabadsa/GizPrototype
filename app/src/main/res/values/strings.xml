@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">شكاوى بلدية غزة</string>
+    <string name="show_details">عرض التفاصيل</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

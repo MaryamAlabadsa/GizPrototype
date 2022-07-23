@@ -61,10 +61,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 //        LatLng sydney = new LatLng(complaint.getLat(), complaint.getLng());
 //        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Clicked Complaint"));
         LatLng userLatLng = new LatLng(31.4975639, 34.4374876);
-        googleMap.addMarker(new MarkerOptions().position(userLatLng).title("الكلية الجامعية للعلوم التطبيقية - غزة")
+        googleMap.addMarker(new MarkerOptions().position(userLatLng).title("الكلية الجامعية للعلوم التطبيقية - غزة"));
                 // below line is use to add custom marker on our map.
-                .icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_location)));
-        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(userLatLng, 15);
+        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(userLatLng, 12f);
         googleMap.animateCamera(cameraUpdate);
 //        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
